@@ -43,6 +43,9 @@ pip install jax[cpu]==0.4.19 -f https://storage.googleapis.com/jax-releases/jax_
 pip install jaxlib==0.4.19 -f https://storage.googleapis.com/jax-releases/jax_releases.html
 Important: After installation, verify that both JAX and JAXLib are at version 0.4.19 using pip list. If not, repeat Step 4.
 
+# Unzip the library
+The required dependencies are bundled as `lib.zip`. Please unzip this file in the root directory of the repository. This will create a `./lib` folder containing all necessary library files.
+
 # Running the Program
 1. Data Preparation:
 Place the .xyz files for the molecules you wish to compute in the ./inputs/XYZ/ directory. It should be in standard XYZ format. 
