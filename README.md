@@ -27,6 +27,7 @@ pip install -e .
 # Install EPNN
 cd lib/epnn-main
 pip install -e .
+For specific library versions, refer to the environment.yaml file.
 
 3. Install additional dependencies
 pip install flax==0.7.4
